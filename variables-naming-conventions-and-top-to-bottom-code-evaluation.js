@@ -24,9 +24,20 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+// let a = "Alice";
+// let b = 5;
+// let c = 20;
+// let d = a + " bought " + b + " items for $" + c + ".";
+
+// console.log(d);
+
+//Above variables names (a, b, c, d) are too vauge. They do not use descriptive language. Can not determine purpose of assigned values and code. 
+
+
+
+let customerName = "Alice";
+let productQuantity = 5;
+let productPrice = 20;
+let d = customerName + " bought " + productQuantity + " items for $" + productPrice + ".";
 
 console.log(d);
